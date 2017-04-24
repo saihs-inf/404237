@@ -33,5 +33,10 @@ namespace WindowsFormsApplication1
             MessageBox.Show("hello worng");
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("good");
+        }
     }
 }
