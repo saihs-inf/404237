@@ -12,6 +12,8 @@ namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
+        int a, b;
+
         public Form1()
         {
             InitializeComponent();
@@ -37,6 +39,20 @@ namespace WindowsFormsApplication1
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("good");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {            
+            textBox2.Text = a.ToString ();
+            textBox3.Text = b.ToString ();
+            textBox4.Text = a.ToString () + b.ToString ();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = a.ToString();
+            textBox3.Text = b.ToString();
+           
         }
     }
 }
